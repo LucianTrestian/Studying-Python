@@ -3,7 +3,7 @@ def sort_array(source_array):
     odd_array = sorted([i for i in splited_array if i % 2 != 0])    # extract odd numbers
     for index, item in enumerate(splited_array):    #try to insert in splited_array
         if item in odd_array:
-            splited_array[index] = odd_array.pop(0)
+            splited_array[index] = odd_array.remove()
     return splited_array
 
 print(sort_array(input()))
