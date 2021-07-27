@@ -7,7 +7,7 @@ def expanded_form(num):
 
     return ' + '.join(result[::-1])
 
-print(expanded_form())
+print(expanded_form(input()))
 
 #def expanded_form(num):
 #    num = list(str(num))
