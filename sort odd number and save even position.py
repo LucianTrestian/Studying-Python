@@ -6,7 +6,6 @@ def sort_array(source_array):
             splited_array[index] = odd_array.remove()
     return splited_array
 
-print(sort_array(input()))
 
 #def sort_array(source_array):
 #   result = sorted([l for l in source_array if l % 2 == 1])

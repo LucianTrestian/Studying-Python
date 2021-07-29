@@ -8,5 +8,4 @@ def dashatize(n):
     except:
         return 'None'   
 
-print(dashatize(input()))
 
