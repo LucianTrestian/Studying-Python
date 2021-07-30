@@ -7,3 +7,4 @@ while exit.lower() != "exit" :
         exit = data[0]
     else:
         print(choice(data))
+        
